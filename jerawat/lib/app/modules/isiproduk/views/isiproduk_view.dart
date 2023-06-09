@@ -92,7 +92,15 @@ class IsiprodukView extends GetView<IsiprodukController> {
                           ),
                         ),
                       ),
-
+                      Container(
+                        child: Text(
+                          'Kategori',
+                          style: primaryTextStyle.copyWith(
+                            fontSize: 14,
+                            fontWeight: semiBold,
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ),
