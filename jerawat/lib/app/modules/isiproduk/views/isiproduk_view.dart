@@ -84,21 +84,74 @@ class IsiprodukView extends GetView<IsiprodukController> {
                       ),
                       SizedBox(height: getPropertionateScreenHeight(40),),
                       Container(
-                        child: Text(
-                          'Detail',
-                          style: primaryTextStyle.copyWith(
-                            fontSize: 14,
-                            fontWeight: semiBold,
-                          ),
-                        ),
-                      ),
-                      Container(
-                        child: Text(
-                          'Kategori',
-                          style: primaryTextStyle.copyWith(
-                            fontSize: 14,
-                            fontWeight: semiBold,
-                          ),
+                        width: getPropertionateScreenWidht(255),
+                        height: getPropertionateScreenHeight(130),
+                        child: Column(
+                          children: [
+                            Align(
+                              alignment: Alignment.centerLeft,
+                              child: Text(
+                                'Detail',
+                                style: primaryTextStyle.copyWith(
+                                  fontSize: 14,
+                                  fontWeight: semiBold,
+                                ),
+                              ),
+                            ),
+                            SizedBox(height: getPropertionateScreenHeight(5),),
+                            Row(
+                              children: [
+                                Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(
+                                    'Kategori         :',
+                                    style: primaryTextStyle.copyWith(
+                                      fontSize: 14,
+                                      fontWeight: semiBold
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(width: getPropertionateScreenWidht(5),),
+                                Text(
+                                  'xxxxxxxxxxxxxxx',
+                                  style: primaryTextStyle.copyWith(
+                                    fontSize: 14,
+                                    fontWeight: semiBold,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            SizedBox(height: getPropertionateScreenHeight(5),),
+                            Row(
+                              children: [
+                                Align(
+                                  alignment: Alignment.centerLeft,
+                                  child: Text(
+                                    'Deskripsi        :',
+                                    style: primaryTextStyle.copyWith(
+                                      fontSize: 14,
+                                      fontWeight: semiBold,
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: getPropertionateScreenWidht(5),
+                                ),
+                                Container(
+                                  constraints: BoxConstraints(
+                                    maxWidth: 180,
+                                  ),
+                                  child: Text(
+                                    'produk ini merupakan sebuah ptodufasf yang sangat gacor abiezzz',
+                                    style: primaryTextStyle.copyWith(
+                                      fontSize: 14,
+                                      fontWeight: regular,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
                         ),
                       ),
                     ],

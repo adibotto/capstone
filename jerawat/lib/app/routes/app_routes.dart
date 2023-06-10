@@ -17,6 +17,7 @@ abstract class Routes {
   static const DATADIRI5 = _Paths.DATADIRI5;
   static const PRODUK = _Paths.PRODUK;
   static const ISIPRODUK = _Paths.ISIPRODUK;
+  static const INFORMASI = _Paths.INFORMASI;
 }
 
 abstract class _Paths {
@@ -35,4 +36,5 @@ abstract class _Paths {
   static const DATADIRI5 = '/datadiri5';
   static const PRODUK = '/produk';
   static const ISIPRODUK = '/isiproduk';
+  static const INFORMASI = '/informasi';
 }

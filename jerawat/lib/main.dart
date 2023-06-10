@@ -10,7 +10,7 @@ void main() {
     GetMaterialApp(
       title: "Application",
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.ISIPRODUK,
+      initialRoute: Routes.INFORMASI,
       getPages: AppPages.routes,
       theme: theme(),
     ),

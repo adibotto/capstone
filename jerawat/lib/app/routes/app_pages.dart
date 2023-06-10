@@ -12,6 +12,8 @@ import '../modules/datadiri5/bindings/datadiri5_binding.dart';
 import '../modules/datadiri5/views/datadiri5_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
+import '../modules/informasi/bindings/informasi_binding.dart';
+import '../modules/informasi/views/informasi_view.dart';
 import '../modules/isiproduk/bindings/isiproduk_binding.dart';
 import '../modules/isiproduk/views/isiproduk_view.dart';
 import '../modules/login/bindings/login_binding.dart';
@@ -106,6 +108,11 @@ class AppPages {
       name: _Paths.ISIPRODUK,
       page: () => const IsiprodukView(),
       binding: IsiprodukBinding(),
+    ),
+    GetPage(
+      name: _Paths.INFORMASI,
+      page: () => const InformasiView(),
+      binding: InformasiBinding(),
     ),
   ];
 }

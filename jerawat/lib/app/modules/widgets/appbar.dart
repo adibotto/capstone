@@ -33,13 +33,14 @@ class NamaApp extends StatelessWidget {
                     ),
                   ),
                 ),
-                SizedBox(width: getPropertionateScreenWidht(60),),
+                SizedBox(width: getPropertionateScreenWidht(30),),
                 Center(
                   child: Container(
                     width: getPropertionateScreenWidht(157),
                     height: getPropertionateScreenHeight(27),
                     child: Text(
                       judul,
+                      textAlign: TextAlign.center,
                       style: primaryTextStyle.copyWith(
                         fontSize: 18,
                         fontWeight: semiBold,
