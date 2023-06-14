@@ -23,6 +23,7 @@ abstract class Routes {
   static const EDITPROFILE = _Paths.EDITPROFILE;
   static const PENGATURAN = _Paths.PENGATURAN;
   static const GANTIPASSWORD = _Paths.GANTIPASSWORD;
+  static const SCANWAJAH2 = _Paths.SCANWAJAH2;
 }
 
 abstract class _Paths {
@@ -47,4 +48,5 @@ abstract class _Paths {
   static const EDITPROFILE = '/editprofile';
   static const PENGATURAN = '/pengaturan';
   static const GANTIPASSWORD = '/gantipassword';
+  static const SCANWAJAH2 = '/scanwajah2';
 }

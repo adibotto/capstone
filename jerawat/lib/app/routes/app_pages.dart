@@ -36,6 +36,8 @@ import '../modules/register/bindings/register_binding.dart';
 import '../modules/register/views/register_view.dart';
 import '../modules/scanwajah1/bindings/scanwajah1_binding.dart';
 import '../modules/scanwajah1/views/scanwajah1_view.dart';
+import '../modules/scanwajah2/bindings/scanwajah2_binding.dart';
+import '../modules/scanwajah2/views/scanwajah2_view.dart';
 import '../modules/splashscreen/bindings/splashscreen_binding.dart';
 import '../modules/splashscreen/views/splashscreen_view.dart';
 
@@ -141,6 +143,11 @@ class AppPages {
       name: _Paths.GANTIPASSWORD,
       page: () => const GantipasswordView(),
       binding: GantipasswordBinding(),
+    ),
+    GetPage(
+      name: _Paths.SCANWAJAH2,
+      page: () => const Scanwajah2View(),
+      binding: Scanwajah2Binding(),
     ),
   ];
 }

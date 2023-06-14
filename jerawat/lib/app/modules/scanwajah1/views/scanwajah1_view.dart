@@ -35,6 +35,11 @@ class Scanwajah1View extends GetView<Scanwajah1Controller> {
                     color: Color(0xFFE8E8E4),
                     borderRadius: BorderRadius.circular(10),
                   ),
+                  child: InkWell(
+                    onTap: (){
+                      Get.toNamed(Routes.SCANWAJAH2);
+                    },
+                  ),
                 ),
                 SizedBox(
                   height: getPropertionateScreenHeight(50),
