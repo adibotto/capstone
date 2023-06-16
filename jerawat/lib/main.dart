@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: "jerawat app",
-      initialRoute: Routes.SCANWAJAH2,
+      initialRoute: Routes.SPLASHSCREEN,
       debugShowCheckedModeBanner: false,
       getPages: AppPages.routes,
     );
